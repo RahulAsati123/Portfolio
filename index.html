@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <title>Rahul - Developer Portfolio</title>
+    <style>
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@1,300&family=Oswald:wght@300&family=Philosopher&family=Poppins:wght@400;700&family=Roboto+Slab:wght@200&display=swap');
+</style>
+    <style>
+  
+
+    </style>
+</head>
+<body>
+    <header style="padding:0%">
+        <nav>
+            <div class="left">Rahul's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#WX">Work Experience</a></li>
+                    <li><a href="#" onclick="scrollToProjects()">Projects</a></li>
+                    <li><a href="#Iprojects">Internship Projects</a></li>
+                    <li><a href="/">Contact</a></li>
+                    
+                  
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class = "firstsection">
+            <div class="leftsection">
+               
+              Hi , My name is  <span class="purple">Rahul</span>
+              <div>and I am a passionate</div>
+              <span id="element"></span>
+              <div class="button">
+                <button class="btn" onclick="downloadResume()">Download Resume</button>
+                <button class="btn" onclick="window.location.href = 'https://github.com/RahulAsati123';">Visit GitHub</button>
+  
+            </div>
+
+            </div>
+            <div class="rightsection">
+                <img src="sec12.png" alt="">
+
+            </div>
+        </section>
+        <hr>
+        <section id="WX"  class="secondsection">
+           
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="git.png" alt="">
+                    <div class="vertical-title">
+                        Git Project (June 2022)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda autem, perspiciatis necessitatibus magnam beatae unde laudantium, quis dolores eos sapiente placeat laboriosam ratione veniam pariatur accusamus fuga nesciunt, quo quae.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="react.png" alt="">
+                    <div class="vertical-title">
+                        React Developer (Feb 2023 -may 2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda autem, perspiciatis necessitatibus magnam beatae unde laudantium, quis dolores eos sapiente placeat laboriosam ratione veniam pariatur accusamus fuga nesciunt, quo quae.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="Mongodb.png" alt="">
+                    <div class="vertical-title">
+                        Flask Back-End Developer ( May 2023 - Present )
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda autem, perspiciatis necessitatibus magnam beatae unde laudantium, quis dolores eos sapiente placeat laboriosam ratione veniam pariatur accusamus fuga nesciunt, quo quae.
+                    </div>
+                </div>
+                
+                <!-- <section class="internship-section">
+                  <h2>Internship Projects</h2>
+                  <div class="internship-container">
+                      <div class="internship">
+                          <h3>Internship Project 1</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel arcu sit amet dolor luctus semper.
+                              Donec tincidunt lorem in ligula dapibus, ut euismod tellus ullamcorper.</p>
+                          <a href="https://internship1.com" target="_blank">View Internship</a>
+                      </div>
+                      <div class="internship">
+                          <h3>Internship Project 2</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel arcu sit amet dolor luctus semper.
+                              Donec tincidunt lorem in ligula dapibus, ut euismod tellus ullamcorper.</p>
+                          <a href="https://internship2.com" target="_blank">View Internship</a>
+                      </div>
+                       Add more internship divs as needed -->
+                  <!-- </div>
+              </section> --> 
+            
+
+            </div>
+        </section>
+        <section id="projects" class="project-section">
+            <h2>Projects</h2>
+            <div class="project-container">
+              <div class="project">
+                <h3>Project 1 - Decentralized Crypto Exchange</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel arcu sit amet dolor luctus semper. Donec tincidunt lorem in ligula dapibus, ut euismod tellus ullamcorper.</p>
+                
+                <a href="https://decex-minor-dlord-1.vercel.app/" target="_blank">Live</a>
+              </div>
+              <div class="project">
+                <h3>Project 2 - Stoxx </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel arcu sit amet dolor luctus semper. Donec tincidunt lorem in ligula dapibus, ut euismod tellus ullamcorper.</p>
+               
+                <a href="https://melodic-manatee-0b4329.netlify.app/" target="_blank">Live</a>
+              </div>
+              <div class="project">
+                <h3>Project 3 - To-Do Application </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel arcu sit amet dolor luctus semper. Donec tincidunt lorem in ligula dapibus, ut euismod tellus ullamcorper.</p>
+               
+                <a href="https://project1.com" target="_blank">Live</a>
+              </div>
+              <!-- Add more project divs as needed -->
+            </div>
+          </section>
+        <section id="Iprojects" class="project-section">
+            <h2>Internship Projects</h2>
+            <div class="project-container">
+              <div class="project">
+                <h3>Project 1 - Website (Blitzpath)</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel arcu sit amet dolor luctus semper. Donec tincidunt lorem in ligula dapibus, ut euismod tellus ullamcorper.</p>
+                
+                <a href="https://blitzpath.in" target="_blank">Live</a>
+              </div>
+              <div class="project">
+                <h3>Project 2 - BTC (Blitzpath Tech Console) </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel arcu sit amet dolor luctus semper. Donec tincidunt lorem in ligula dapibus, ut euismod tellus ullamcorper.</p>
+               
+                <a href="https://btc.blitzpath.in" target="_blank">Live</a>
+              </div>
+              
+              <!-- Add more project divs as needed -->
+            </div>
+          
+          
+    </main>
+    <footer class="footer">
+      <div class="contact-email">
+        <p>Contact me : +91-9713247473</p>
+      </div>
+      <div class="contact-links">
+        <a href="https://www.linkedin.com/in/rahul-asati-281496232/" target="_blank">
+          <img src="link.png" alt="LinkedIn Logo">
+          LinkedIn
+        </a>
+        <a href="mailto:rahulasati0102@gmail.com">
+          <img src="gmail.png" alt="Gmail Logo">
+          Gmail
+        </a>
+      </div>
+    </footer>
+      
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Developer.', 'Learner.','Enthusiast.'],
+          typeSpeed: 70,
+          loop : true
+        });
+
+        function scrollToProjects() {
+            var projectsSection = document.getElementById("projects");
+            projectsSection.scrollIntoView({ behavior: "smooth" });
+        }
+      </script>
+    
+</body>
+</html>
